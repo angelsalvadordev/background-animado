@@ -1,4 +1,16 @@
-#EFECTO ANIMADO EN BACKGROUND AL MOVER EL MOUSE
-    ##Tecnologias: Javascript, css y html
+# Efecto Background en movimiento al desplazar el mouse
 
-Creacion de un background animado que interactua en base al movimiento del mouse.
+DOCUMENTACION EN ESPAÑOL
+
+![imagen background animado](/img/demo-background-animado.jpg "imagen background animado")
+
+## Objetivos
+Lograr que el background pueda desplazarse contrariamente a la posicion del mouse.
+
+## Tecnologias, librerias y complementos:
+* HTML
+* CSS
+* JAVASCRIPT
+
+## Ver demo
+[Background animado](https://angelsalvadordev.github.io/background-animado/)

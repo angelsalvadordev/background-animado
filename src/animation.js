@@ -1,5 +1,5 @@
 const elementBG = document.getElementById('image-animation'),
-    rangeChangePos = 25
+    rangeChangePos = 100
 
 let bgPosX = 50,
     bgPosY = 50,
@@ -9,13 +9,12 @@ let bgPosX = 50,
 elementBG.style.backgroundPositionX = `${bgPosX}%`
 elementBG.style.backgroundPositionY = `${bgPosY}%`
 
-elementBG.addEventListener('mousemove', e => {
 
+
+elementBG.addEventListener('mousemove', e => {
     mousePosX = e.clientX
     mousePosY = e.clientY
-
     elementBG.style.backgroundPositionX = `${bgPosX + mousePosX / rangeChangePos}%`
-
     elementBG.style.backgroundPositionY = `${bgPosY + mousePosY / rangeChangePos}%`
 
 })
